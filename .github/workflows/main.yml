@@ -2,6 +2,9 @@ name: Android Release
 
 # 1
 on:
+  create:
+    tags:
+      - v*
   # 2
   push:
     branches: [ "master","main" ]
